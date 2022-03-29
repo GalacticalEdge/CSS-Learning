@@ -1,0 +1,36 @@
+p {
+    color: red;
+    text-align: center
+}
+
+#para1 {
+    text-align: center;
+    color:red;
+}
+
+.center {
+    text-align: center;
+    color:red       
+}
+
+p.center {
+    text-align: center;
+    color: red;
+}
+
+* {
+    text-align: center;
+    color: blue
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+Left off on CSS Coments
