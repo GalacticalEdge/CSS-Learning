@@ -62,3 +62,18 @@ p {
     margin-right: 150px;
     margin-left: 80px;
 }
+
+div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+div {
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+}
+
+/* Left off on CSS Box Model/*
