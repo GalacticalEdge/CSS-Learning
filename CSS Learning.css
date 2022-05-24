@@ -124,3 +124,39 @@ p.c {
 }
 
 /* Left off on Text Decoration */
+
+h2 {
+    text-decoration-line: line-through;
+    text-decoration-color: purple;
+    text-decoration-style: auto;
+}
+
+p.uppercase {
+    text-transform: capitalize;
+}
+
+h1 {
+    letter-spacing: 5px;
+}
+
+p.small {
+    line-height: 0.8;
+}
+
+p.big {
+    line-height: 1.8;
+}
+
+p.one {
+    word-spacing: 10px;
+}
+
+p.two {
+    word-spacing: -2px;
+}
+
+p {
+    white-space: nowrap;
+}
+
+/* Left off on CSS Text Shadow */
