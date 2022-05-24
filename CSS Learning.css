@@ -77,3 +77,12 @@ div {
 }
 
 /* Left off on CSS Box Model/*
+
+div {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+/* Left off on CSS Outline */
