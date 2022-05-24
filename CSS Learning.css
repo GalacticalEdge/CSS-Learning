@@ -86,3 +86,41 @@ div {
 }
 
 /* Left off on CSS Outline */
+
+p {
+    margin: 30px;
+    border: 3px solid black;
+    outline:5px solid white ;
+    background: skyblue;
+    outline-offset: 15px;
+}
+
+body {
+    color: green;
+}
+
+h2 {
+    color: brown;
+}
+
+h2 {
+    text-align: left
+}
+
+div {
+    text-align: justify
+}
+
+p.a {
+    text-align-last: right;
+}
+
+p.b {
+    text-align-last: center;
+}
+
+p.c {
+    text-align-last: left;
+}
+
+/* Left off on Text Decoration */
