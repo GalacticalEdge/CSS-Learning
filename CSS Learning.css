@@ -42,7 +42,7 @@ body {
 body {
     background-image: url(/home/chrisrios/Downloads/forza-horizon-4-3840x2160-e3-2018-poster-4k-19465.jpg);
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: top left;
     background-attachment: fixed;
 }
 
@@ -212,3 +212,26 @@ ul.b {
 }
 
 /* Left off on CSS Tables */
+
+table, th, td {
+    border: 1px solid;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    height: 70px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
