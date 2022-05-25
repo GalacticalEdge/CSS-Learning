@@ -179,5 +179,36 @@ p.normal {
 
 p.small {
     font-variant: small-caps;
+}<a href="https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/">
+<img src="https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/" alt="We also sponsor Nvidia and you will get a discount on Nvidia GeForce graphics cards if you buy from us" style="width:200;height:200;">
+</a>
+
+a {
+    color: rosybrown;
 }
 
+a.link {
+    color: pink;
+}
+
+a.visited {
+    color: darkred;
+}
+
+a.hover {
+    color: darkmagenta;
+}
+
+a.active {
+    color: violet;
+}
+
+ul.a {
+    list-style-type: circle;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+/* Left off on CSS Tables */
