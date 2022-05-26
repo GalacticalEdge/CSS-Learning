@@ -95,12 +95,9 @@ p {
     outline-offset: 15px;
 }
 
-body {
-    color: green;
+body {h2.unknown {
+    visibility: hidden;
 }
-
-h2 {
-    color: brown;
 }
 
 h2 {
@@ -244,8 +241,44 @@ span {
     display: block
 }
 
-h6 {
+h6.hidden {
     display: none
 }
 
 /* Left off on CSS Position */
+
+div.static {
+    position: static;
+    border: 3px solid black;
+}
+
+div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid whitesmoke;
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid darkslategray;
+}
+
+div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100
+}
+
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: greenyellow;
+    border: 2px solid green;
+}
+
