@@ -289,6 +289,7 @@ img {
     left: 0px;
     top: 0px;
     z-index: -1;
+    float: none;
 }
 
 div {
@@ -296,3 +297,32 @@ div {
 }
 
 /* Left off on CSS Float */
+
+span.a {
+    display: inline-block;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px greenyellow;
+    padding: 10px;
+}
+
+div p {
+    background-color: yellow;
+}
+
+ul > li {
+    background-color: tan;
+}
+
+tr + th {
+    background-color: lightcoral;
+}
+
+ol ~ li {
+    background-color: darkorchid;
+}
+
+/* Left off on pseudo-class' */
