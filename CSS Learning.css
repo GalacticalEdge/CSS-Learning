@@ -283,3 +283,16 @@ div.sticky {
 }
 
 /* Left off on z-index property */
+
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+div {
+    overflow: auto;
+}
+
+/* Left off on CSS Float */
