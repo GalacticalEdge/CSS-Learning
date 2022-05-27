@@ -396,3 +396,33 @@ img.fading:hover {
 }
 
 /* Left off on CSS Navigation Bar */
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.vertical {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #555;
+}
+
+li a.vertical {
+    display: block;
+    width: 60px;
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.active {
+    background-color: #04aa6d
+    color: white;
+}
