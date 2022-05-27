@@ -326,3 +326,73 @@ ol ~ li {
 }
 
 /* Left off on pseudo-class' */
+
+/* Unvisited Link */
+a:link {
+    color:blue
+}
+
+/* Visited Link */
+
+a:visited {
+    color: darkblue;
+}
+
+/* Mouse over link */
+a:hover {
+    color: lightblue;
+}
+
+/* Selected Link */
+a:active {
+    color: turquoise;
+}
+
+div:hover {
+    color: lightblue;
+}
+
+p {
+    display: none;
+}
+
+div:hover p {
+    display: block;
+}
+
+p i:first-child {
+    color: blue;
+}
+
+q:lang(no) {
+    quotes: "~" "~";
+}
+
+p::first-line {
+    color: red;
+    font-variant: xx-large;
+}
+
+h1::before {
+    content: url(https://www.ldjsolicitors.co.uk/assets/components/phpthumbof/cache/COVID-19.7af325076002f1d036f20502dfc182a0.jpg)
+}
+
+::marker {
+    color: red;
+    font-size: 23px;
+}
+
+::selection {
+    color: red;
+    background: yellow;
+}
+
+img.fading {
+    opacity: 0.5;
+}
+
+img.fading:hover {
+    opacity: 1.0;
+}
+
+/* Left off on CSS Navigation Bar */
