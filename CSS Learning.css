@@ -428,3 +428,16 @@ li a:hover {
 }
 
 /* Left off on Horizontal Navigation Bars */
+
+li.horizontal {
+    display: inline;
+    float: left;
+}
+
+a.horizontal {
+    display: block;
+    padding: 8px;
+    background-color: brown;
+}
+
+/* Left off on CSS Dropdowns */
