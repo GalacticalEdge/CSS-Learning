@@ -483,3 +483,17 @@ div.desc {
 }
 
 /* Left off on CSS Image Sprites */
+
+#home {
+    width: 46px;
+    height: 44px;
+    background: url(http://planetary.s3.amazonaws.com/image/20110319_vollmond.jpg) 0 0;
+}
+
+#next {
+    width: 43;
+    height: 44px;
+    background: url(http://planetary.s3.amazonaws.com/image/20110319_vollmond.jpg) -91px 0;
+}
+
+/* Left off on CSS Attribute Selectors */
