@@ -292,7 +292,7 @@ img {
     float: none;
 }
 
-div {
+div.overflow {
     overflow: auto;
 }
 
@@ -373,10 +373,6 @@ p::first-line {
     font-variant: xx-large;
 }
 
-h1::before {
-    content: url(https://www.ldjsolicitors.co.uk/assets/components/phpthumbof/cache/COVID-19.7af325076002f1d036f20502dfc182a0.jpg)
-}
-
 ::marker {
     color: red;
     font-size: 23px;
@@ -431,9 +427,7 @@ li a:hover {
 
 li.horizontal {
     display: inline;
-    float: left;
-}
-
+    float: left;.overflow
 a.horizontal {
     display: block;
     padding: 8px;
@@ -478,7 +472,9 @@ div.gallery img {
 }
 
 div.desc {
-    padding: 15px;
+    padding: 15ph1::before {
+        content: url(https://www.ldjsolicitors.co.uk/assets/components/phpthumbof/cache/COVID-19.7af325076002f1d036f20502dfc182a0.jpg)
+    }
     text-align: center;
 }
 
@@ -575,9 +571,61 @@ ol.counter {
     list-style-type: none;
 }
 
-li.counter::before {
-    counter-increment: section;
-    content: counter(section, ".") " ";
+/* Left off on CSS Website Layout */
+
+.header {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+Pizza
+Hamburger
+Cheese
+
 }
 
-/* Left off on CSS Website Layout */
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color:  #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    Pizza
+    Hamburger
+    Cheese
+    
+topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create three equal columns that float next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%
+    }
+}
+
+div.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+    display: inline;
+}
+
+/* Left off on CSS Units */
