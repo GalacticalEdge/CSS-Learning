@@ -40,7 +40,7 @@ body {
 }
 
 body {
-    background-image: url(/home/chrisrios/Downloads/forza-horizon-4-3840x2160-e3-2018-poster-4k-19465.jpg);
+    background-image: url(/home/user/Downloads/hiring..png);
     background-repeat: no-repeat;
     background-position: top left;
     background-attachment: fixed;
@@ -656,3 +656,9 @@ div.footer {
 }
 
 /* Left off on CSS Rounded Corners */
+
+div.rounded {
+    border-radius: 15px;
+}
+
+/* Left off on CSS Border Images */
