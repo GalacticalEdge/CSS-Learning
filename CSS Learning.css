@@ -657,8 +657,16 @@ div.footer {
 
 /* Left off on CSS Rounded Corners */
 
-div.rounded {
+#roundedcorners {
     border-radius: 15px;
 }
 
 /* Left off on CSS Border Images */
+
+#borderimg {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://static.vecteezy.com/system/resources/previews/000/236/998/original/decorative-border-vector.jpg) 30 round;
+}
+
+/* Left off on CSS Backgrounds */
