@@ -40,9 +40,10 @@ body {
 }
 
 body {
-    background-image: url(/home/user/Downloads/hiring..png);
-    background-repeat: no-repeat;
-    background-position: top left;
+    background-image: url(https://www.lewisginter.org/wp-content/uploads/2020/06/IMG_2524-scaled.jpg), url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.wallpapers13.com%2Fwp-content%2Fuploads%2F2015%2F12%2FGazania-flowers-2560x1600-1920x1200.jpg&f=1&nofb=1);
+    background-size: 100px 80px;
+    background-repeat: no-repeat, repeat;
+    background-position: top left, bottom right;
     background-attachment: fixed;
 }
 
@@ -670,3 +671,5 @@ div.footer {
 }
 
 /* Left off on CSS Backgrounds */
+
+/* Left off on CSS Colors */
