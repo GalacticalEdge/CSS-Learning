@@ -673,3 +673,9 @@ div.footer {
 /* Left off on CSS Backgrounds */
 
 /* Left off on CSS Colors */
+
+div.transparent {
+    background-color: transparent;
+}
+
+/* Left off on CSS Linear Gradients */
