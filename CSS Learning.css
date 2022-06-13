@@ -1,6 +1,15 @@
 p {
     color: red;
     text-align: center
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    margin: 30px;
+    border: 3px solid black;
+    outline:5px solid white ;
+    background: skyblue;
+    outline-offset: 15px;
 }
 
 #para1 {
@@ -31,15 +40,15 @@ h1 {
 h2 {
     text-align: center;
     color: red;
+    text-decoration-line: line-through;
+    text-decoration-color: purple;
+    text-decoration-style: auto;
 }
 
 /* Left off on CSS Coments */
 
 body {
     background-color: #fc9; /* Same as fcc99 */
-}
-
-body {
     background-image: url(https://www.lewisginter.org/wp-content/uploads/2020/06/IMG_2524-scaled.jpg), url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.wallpapers13.com%2Fwp-content%2Fuploads%2F2015%2F12%2FGazania-flowers-2560x1600-1920x1200.jpg&f=1&nofb=1);
     background-size: 100px 80px;
     background-repeat: no-repeat, repeat;
@@ -57,56 +66,29 @@ p.solid {
 
 /* Left off on CSS Margins */
 
-p {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
-}
-
-div {
+#mainstream {
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
-}
-
-div {
     height: 200px;
     width: 50%;
     background-color: powderblue;
 }
-
-/* Left off on CSS Box Model/*
 
 div {
     width: 300px;
     border: 15px solid green;
     padding: 50px;
     margin: 20px;
+    overflow: auto;
+    text-align: justify
 }
 
 /* Left off on CSS Outline */
 
-p {
-    margin: 30px;
-    border: 3px solid black;
-    outline:5px solid white ;
-    background: skyblue;
-    outline-offset: 15px;
-}
-
 body {h2.unknown {
     visibility: hidden;
-}
-}
-
-h2 {
-    text-align: left
-}
-
-div {
-    text-align: justify
 }
 
 p.a {
@@ -122,12 +104,6 @@ p.c {
 }
 
 /* Left off on Text Decoration */
-
-h2 {
-    text-decoration-line: line-through;
-    text-decoration-color: purple;
-    text-decoration-style: auto;
-}
 
 p.uppercase {
     text-transform: capitalize;
@@ -679,3 +655,11 @@ div.transparent {
 }
 
 /* Left off on CSS Linear Gradients */
+
+#lingrad {
+    height: 200px;
+    background-color: red;
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+/* Left off on CSS Shadows */
