@@ -84,6 +84,8 @@ div {
     overflow: auto;
     text-align: justify;
     box-shadow: 10px 10px 5px 12px darkblue;
+    font-family: myFirstFont;
+    transform: translate(50px, 100px);
 }
 
 /* Left off on CSS Outline */
@@ -686,3 +688,17 @@ p.eff2 {
 }
 
 /* Left off on CSS Web Fonts */
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(idk.woff)
+    font-weight: bold;
+}
+
+#rotate {
+    transform: rotateX(150deg);
+    transform: rotateY(150deg);
+    transform: rotateZ(90deg);
+}
+
+/* Left off on CSS Transitions */
