@@ -86,6 +86,11 @@ div {
     box-shadow: 10px 10px 5px 12px darkblue;
     font-family: myFirstFont;
     transform: translate(50px, 100px);
+    transition: width 2s height 4s;
+}
+
+div:hover {
+    width: 300px;
 }
 
 /* Left off on CSS Outline */
@@ -407,7 +412,7 @@ li a:hover {
 
 li.horizontal {
     display: inline;
-    float: left;
+    float: left;.overflow
 a.horizontal {
     display: block;
     padding: 8px;
@@ -702,3 +707,5 @@ p.eff2 {
 }
 
 /* Left off on CSS Transitions */
+
+/* Left off on CSS Animations */
