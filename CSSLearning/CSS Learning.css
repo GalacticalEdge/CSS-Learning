@@ -746,3 +746,14 @@ div.animation {
 }
 
 /* Left off on CSS Style Images */
+
+img {
+    border: 1px solid #ddd
+    border-radius: 8px;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+/* Left off on CSS Image Reflection */
