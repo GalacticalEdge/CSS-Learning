@@ -1,5 +1,10 @@
+:root {
+    --lightbrown: #fc9;
+    --white: #f5f5f5;
+}
+
 p {
-    color: whitesmoke;
+    color: #f5f5f5;
     text-align: center
     margin-top: 100px;
     margin-bottom: 100px;
@@ -43,6 +48,7 @@ h2 {
     text-decoration-line: line-through;
     text-decoration-color: purple;
     text-decoration-style: auto;
+    column-span: all;
 }
 
 /* Left off on CSS Coments */
@@ -87,6 +93,13 @@ div {
     font-family: myFirstFont;
     transform: translate(50px, 100px);
     transition: width 2s height 4s;
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 1px solid green;
+    column-width: 200px;
+    resize: both;
+    overflow: auto;
+    box-sizing: border-box;
 }
 
 div:hover {
@@ -790,3 +803,5 @@ img {
 }
 
 /* Left off on CSS Multiple Columns */
+
+/* Left off on CSS Responsive Intro */
