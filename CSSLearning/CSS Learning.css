@@ -805,3 +805,27 @@ img {
 /* Left off on CSS Multiple Columns */
 
 /* Left off on CSS Responsive Intro */
+
+* {
+    box-sizing: border-box;
+}
+
+.menu {
+    width: 25%;
+    float: left;
+}
+
+.main {
+    width: 75%;
+    float: left;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+}
+
+/* Left off on CSS RWD Images */
