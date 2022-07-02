@@ -288,6 +288,8 @@ img {
     top: 0px;
     z-index: -1;
     float: none;
+    width: 100%;
+    height: auto;
 }
 
 div {
@@ -829,3 +831,13 @@ img {
 }
 
 /* Left off on CSS RWD Images */
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.grid-container {
+    display: inline-grid;
+    gap: 50px 100px;
+}
